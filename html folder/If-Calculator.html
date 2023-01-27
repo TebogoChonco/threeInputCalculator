@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>If Calculator</title>
+</head>
+
+<body>
+  <h1>If Calculator</h1>
+
+  Input1 <input type="text" id="Input1">
+  <br>
+  Input2 <input type="text" id="Input2">
+  <br>
+  <button onclick="'calculate'" ()>Results</button>
+
+<style>
+.input1 {margin-bottom: 5px;}
+
+</style>
+
+  <script>
+    function calculate() {
+      var field1 = document.getElementById('Input1').value;
+      var field2 = document.getElementById('Input2').value;
+      var results = parseFloat(field1) + parseFloat(field2)
+
+      if (!NaN(result)) {
+        document.getElementById('answer').innerHTML = result;
+      }
+    }
+  </script>
+</body>
+
+</html>
