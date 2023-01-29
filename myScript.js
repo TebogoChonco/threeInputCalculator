@@ -1,3 +1,5 @@
+
+
 // Use prompt function to get input from user:
 let x = prompt(`Enter first number`);
 let y = prompt(`Enter second number`);
