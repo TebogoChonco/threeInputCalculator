@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css folder/myStylesheet.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="calculator">
+        <h1>Switch Calculator</h1>
+        <form action="">
+            <h2>Please insert a number</h2>
+            <input type="number" id="input1">
+    
+            <h2>Please choose an operator</h2>
+            <select name="operators" id="operators">
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="/">÷</option>
+                <option value="*">x</option>
+            </select>
+    
+            <h2>Please insert final number</h2>
+            <input type="number" id="input2">
+    
+            <button onclick="calculate(event)">Calculate</button>
+    
+            <h1>Result:</h1>
+            <h2 id="output"></h2>
+        </form>
+    
+        <script src="../js folder/switchScript.js" type="text/javascript"></script>
+    </div>
+    
+</body>
+</html>
